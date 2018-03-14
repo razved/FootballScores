@@ -1,0 +1,70 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#5D4037</item>
+        <item name="colorPrimaryDark">#3E2723</item>
+        <item name="colorAccent">#D84315</item>
+        <!--        <item name="colorButtonNormal">#4DD0E1</item> -->
+    </style>
+
+    <!-- Text styles -->
+    <style name="GrayText">
+        <item name="android:textColor">#5D4037</item>
+        <item name="android:textSize">24dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="MainHeader" parent="GrayText">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="SecondHeader" parent="GrayText">
+        <item name="android:layout_marginTop">12dp</item>
+    </style>
+
+    <style name="FoalsText">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">#BF360C</item>
+    </style>
+
+    <style name="Goals">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">46sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:layout_marginTop">4dp</item>
+    </style>
+
+    <!-- Buttons styles-->
+    <style name="ButtonStyle">
+        <item name="android:background">#37474F</item>
+        <item name="android:textColor">#ECEFF1</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:layout_margin">8dp</item>
+    </style>
+
+    <style name="ResetButton" parent="ButtonStyle">
+        <item name="android:background">#BF360C</item>
+        <item name="android:textColor">#FBE9E7</item>
+        <item name="android:layout_marginTop">24dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <!-- Image style> -->
+    <style name="ImageFootbal">
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:src">@drawable/football</item>
+    </style>
+
+</resources>
